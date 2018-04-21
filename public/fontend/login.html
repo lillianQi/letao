@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登录</title>
+  <link rel="stylesheet" href="./mui/css/mui.min.css">
+  <link rel="stylesheet" href="./mui/css/icons-extra.css">
+  <script src="./mui/js/swipe.js"></script>
+  <style>
+    html,
+    body,
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .mui-bar {
+      background-color: rgb(0, 102, 153);
+    }
+
+    .mui-tab-item span {
+      color: #fff;
+    }
+
+    .mui-tab-label {
+      font-size: 11px;
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .mui-icon-extra-cart {
+      top: 3px;
+      width: 24px;
+      height: 24px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .mui-icon-extra {
+      font-size: 20px;
+      position: relative;
+      z-index: 20;
+    }
+
+
+    .mui-icon-arrowthinleft {
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .mui-action-back {
+      color: #fff;
+    }
+
+    .mui-bar {
+      position: fixed;
+      z-index: 10;
+      right: 0;
+      left: 0;
+      height: 44px;
+      padding-right: 0;
+      padding-left: 0;
+      border-bottom: 0;
+    }
+
+    .mui-title {
+      color: #fff;
+    }
+
+    .mui-content {
+      width: 100%;
+    }
+    .user {
+      padding:10px 5%;
+    }
+    .pwd {
+      position: relative;
+      padding:0px 5%;
+    }
+    .mui-content input {
+      padding-left:20px;
+    }
+    .mui-icon-eye {
+      position: absolute;
+      top:6px;
+      right:10%;
+    }
+    .login {
+      width:100%;
+      padding:20px 5%;
+    }
+    .login .ipt {
+      text-align: center;
+      background-color: rgb(0, 122, 255);
+      color:#fff;
+    }
+    .link {
+      width:100%;
+      font-size:16px;
+      float:right;
+      margin-top:-30px;
+      padding:20px 5%;
+    }
+    .link a {
+      display: block;
+      float: right;
+    }
+    /* .mui-icon-eye:active {
+      color:rgb(0, 102, 153)
+    } */
+    .mui-active {
+      color: #007aff;
+    }
+  </style>
+</head>
+
+<body>
+  <header id="header" class="mui-bar mui-bar-nav">
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+    <h1 class="mui-title">登录</h1>
+    <!-- <a class="mui-icon mui-icon-search mui-pull-right"></a> -->
+  </header>
+  <nav class="mui-bar mui-bar-tab">
+    <a class="mui-tab-item mui-active" href="#tabbar">
+      <span class="mui-icon mui-icon-home"></span>
+      <span class="mui-tab-label">首页</span>
+    </a>
+    <a class="mui-tab-item" href="#tabbar-with-chat">
+      <span class="mui-icon mui-icon-bars"></span>
+      <span class="mui-tab-label">分类</span>
+    </a>
+    <a class="mui-tab-item" href="#tabbar-with-contact">
+      <span class="mui-icon-extra mui-icon-extra-cart"></span>
+      <span class="mui-tab-label">购物车</span>
+    </a>
+    <a class="mui-tab-item" href="#tabbar-with-map">
+      <span class="mui-icon mui-icon-personadd-filled"></span>
+      <span class="mui-tab-label">会员中心</span>
+    </a>
+  </nav>
+  <!-- 内容 -->
+  <main class="mui-content">
+   <div class="user">
+     <input type="text"value="用户名/手机号">
+   </div>
+   <div class="pwd">
+     <input type="text"value="密码">
+     <span class="mui-icon mui-icon-eye "></span>
+   </div>
+   <div class="login">
+     <input type="text"class="ipt"value="登录">
+   </div>
+   <div class="link">
+      <a href="javascript:;" class="enrollment">免费注册</a>
+   </div>
+   
+  </main>
+
+
+
+
+
+</body>
+
+</html>

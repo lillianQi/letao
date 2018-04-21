@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>乐淘</title>
+  <link rel="stylesheet" href="./mui/css/mui.min.css">
+  <link rel="stylesheet" href="./mui/css/icons-extra.css">
+  <script src="./mui/js/swipe.js"></script>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* body {
+      background-color: #fff;
+    } */
+
+    .mui-content {
+      background-color: #fff;
+
+    }
+
+    .mui-bar-tab~.mui-content {
+      padding-bottom: 0px;
+    }
+
+    .mui-bar {
+      background-color: rgb(0, 102, 153);
+    }
+
+    .mui-tab-item span {
+      color: #fff;
+    }
+
+    .mui-tab-label {
+      font-size: 11px;
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .mui-icon-extra-cart {
+      top: 3px;
+      width: 24px;
+      height: 24px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .mui-icon-extra {
+      font-size: 20px;
+      position: relative;
+      z-index: 20;
+    }
+
+    .mui-title {
+      color: #fff;
+      font-size: 20px;
+      font-family: 微软雅黑;
+    }
+
+    .mui-icon-arrowthinleft {
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .mui-action-back {
+      color: #fff;
+    }
+
+    /* 内容 */
+
+    .mui-content {
+      width: 100%;
+    }
+
+    .itcast {
+      overflow: hidden;
+      width: 100%;
+      padding: 10px 5%;
+      height: 100%;
+      /* border-bottom:1px solid #ccc; */
+    }
+
+    .mui-icon-contact {
+      font-size: 40px;
+      float: left;
+    }
+
+    .msg {
+      float: left;
+    }
+
+    .phone {
+      color: #ccc;
+      font-family: 宋体;
+    }
+
+    .mui-icon-arrowright {
+      float: right;
+      margin-top: 7px;
+      color: #ccc;
+      font-weight: bold;
+    }
+
+    .line {
+      width: 100%;
+      height: 1px;
+      background-color: #ccc;
+      margin-left: 5%;
+    }
+
+    .font {
+      width: 100%;
+      padding: 10px 5%;
+      height: 100%;
+      line-height: 1.5;
+    }
+
+    .line-last {
+      width: 100%;
+      height: 1px;
+      background-color: #ccc;
+    }
+
+    .exit {
+      width: 100%;
+      padding: 20px 5%;
+    }
+
+    .exit input {
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <header id="header" class="mui-bar mui-bar-nav">
+    <h1 class="mui-title">个人中心</h1>
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+  </header>
+  <nav class="mui-bar mui-bar-tab">
+    <a class="mui-tab-item mui-active" href="#tabbar">
+      <span class="mui-icon mui-icon-home"></span>
+      <span class="mui-tab-label">首页</span>
+    </a>
+    <a class="mui-tab-item" href="#tabbar-with-chat">
+      <span class="mui-icon mui-icon-bars"></span>
+      <span class="mui-tab-label">分类</span>
+    </a>
+    <a class="mui-tab-item" href="#tabbar-with-contact">
+      <span class="mui-icon-extra mui-icon-extra-cart"></span>
+      <span class="mui-tab-label">购物车</span>
+    </a>
+    <a class="mui-tab-item" href="#tabbar-with-map">
+      <span class="mui-icon mui-icon-personadd-filled"></span>
+      <span class="mui-tab-label">会员中心</span>
+    </a>
+  </nav>
+  <!-- 内容 -->
+  <main class="mui-content">
+    <div class="itcast">
+      <div class="mui-icon mui-icon-contact mui-icon-icon-contact-filled"></div>
+      <div class="msg">
+        <div>itcast</div>
+        <div class="phone">绑定手机:15102324243</div>
+      </div>
+      <a class="mui-icon mui-icon-arrowright"></a>
+    </div>
+    <div class="line"></div>
+    <div class="font">账号与安全
+      <a class="mui-icon mui-icon-arrowright"></a>
+    </div>
+    <div class="line"></div>
+
+    <div class="font">我的购物车
+      <a class="mui-icon mui-icon-arrowright"></a>
+    </div>
+    <div class="line"></div>
+
+    <div class="font">收获地址管理
+      <a class="mui-icon mui-icon-arrowright"></a>
+    </div>
+    <div class="line-last"></div>
+  </main>
+  <div class="exit">
+    <input type="text" value="退出登录">
+  </div>
+
+
+
+</body>
+
+</html>
